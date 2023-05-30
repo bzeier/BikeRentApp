@@ -16,5 +16,20 @@ namespace BikeRentApp
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Refresh()
+        {
+            //
+        }
     }
 }
