@@ -22,10 +22,12 @@ namespace BikeRentApp
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            Refresh();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
             ListBox selected = (ListBox)sender;
             try {
                 Bike currentBike = Manager.Catalogue.ElementAt(selected.SelectedIndex);
@@ -60,6 +62,8 @@ namespace BikeRentApp
             pictureBox1.ImageLocation = dir;
             Console.WriteLine(dir);
             Console.WriteLine(dir);
+
+            listBox1.Items.Clear();
 
             foreach (Bike bike in Manager.Catalogue)
             {

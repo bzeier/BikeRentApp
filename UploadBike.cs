@@ -22,5 +22,25 @@ namespace BikeRentApp
             Program.form_mainmenu.Show();
             Program.form_upload.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != string.Empty || textBox2.Text != string.Empty)
+            {
+                if(numericUpDown1.Value > 0)
+                {
+                    Manager.AddNewBikeToCatalgue(new Models.Bike(textBox1.Text, textBox2.Text, Manager.CurrentUser, (float)numericUpDown1.Value, "bike.png"));
+
+                    Program.form_mainmenu.Show();
+                    Program.form_upload.Hide();
+                }
+            }
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

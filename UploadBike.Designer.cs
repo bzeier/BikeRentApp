@@ -79,6 +79,7 @@
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(48, 23);
             numericUpDown1.TabIndex = 4;
+            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // label3
             // 
@@ -105,6 +106,7 @@
             button1.TabIndex = 7;
             button1.Text = "SUBMIT";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 

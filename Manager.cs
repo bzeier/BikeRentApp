@@ -14,5 +14,11 @@ namespace BikeRentApp
         public static List<Bike> Catalogue = new List<Bike>();
         public static List<User> Users = new List<User>();
         public static Bike SelectedBike = null;
+        public static User CurrentUser = null;
+
+        public static void AddNewBikeToCatalgue(Bike bike)
+        {
+            Catalogue.Add(bike);
+        }
     }
 }
