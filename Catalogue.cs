@@ -27,7 +27,8 @@ namespace BikeRentApp
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox selected = (ListBox)sender;
-            Bike currentBike = Manager.Catalogue.ElementAt(selected.SelectedIndex);
+            try {
+                Bike currentBike = Manager.Catalogue.ElementAt(selected.SelectedIndex);
             label1.Text = currentBike.Name;
             label3.Text = currentBike.Description;
             label2.Text = currentBike.PricePerHour.ToString() + "$ / hr";
@@ -44,6 +45,11 @@ namespace BikeRentApp
             {
                 button1.Text = "RENT";
                 button1.Enabled = true;
+            }
+
+            } catch
+            {
+
             }
 
         }

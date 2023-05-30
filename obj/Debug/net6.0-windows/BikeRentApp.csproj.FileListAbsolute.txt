@@ -16,3 +16,4 @@ C:\Users\Brand\source\repos\BikeRentApp\BikeRentApp\obj\Debug\net6.0-windows\ref
 C:\Users\Brand\source\repos\BikeRentApp\BikeRentApp\obj\Debug\net6.0-windows\BikeRentApp.pdb
 C:\Users\Brand\source\repos\BikeRentApp\BikeRentApp\obj\Debug\net6.0-windows\BikeRentApp.genruntimeconfig.cache
 C:\Users\Brand\source\repos\BikeRentApp\BikeRentApp\obj\Debug\net6.0-windows\ref\BikeRentApp.dll
+C:\Users\Brand\source\repos\BikeRentApp\BikeRentApp\obj\Debug\net6.0-windows\BikeRentApp.UploadBike.resources

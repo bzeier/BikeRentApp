@@ -10,6 +10,7 @@ namespace BikeRentApp
         /// 
         public static Catalogue form_catalogue = new Catalogue();
         public static Form1 form_mainmenu = new Form1();
+        public static UploadBike form_upload = new UploadBike();
 
 
         [STAThread]
@@ -32,9 +33,12 @@ namespace BikeRentApp
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            Application.Run(form_catalogue);
             Application.Run(form_mainmenu);
-            form_mainmenu.Hide();
+           // Application.Run(form_catalogue);
+            //Application.Run(form_upload);
+            //form_mainmenu.Show();
+            //form_upload.Hide();
+            //form_catalogue.Hide();
         }
     }
 }

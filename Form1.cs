@@ -12,5 +12,11 @@ namespace BikeRentApp
             Program.form_catalogue.Show();
             Program.form_mainmenu.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Program.form_mainmenu.Hide();
+            Program.form_upload.Show();
+        }
     }
 }

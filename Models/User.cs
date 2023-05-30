@@ -12,7 +12,7 @@ namespace BikeRentApp.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public string UserName { get; set; }
-        public List<Bike> bikes { get; set; }
+        public List<Bike> RentedBikes { get; set; }
 
         public float BankBalance { get; set; }
 
